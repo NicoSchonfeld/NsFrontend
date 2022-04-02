@@ -18,11 +18,11 @@ export default function AboutMe() {
                 Soy creativo y me esfuerzo por innovar o mejorar lo existente.
               </p>
               <p className={styles.parrafo}>
-                Podés mirar más de mis trabajos en mi sitio Web.
+                Seguí mi trabajo por las redes:
                 <br />
-                <Link href="https://nicoschonfeld.vercel.app/">
+                <Link href="https://www.instagram.com/nicoschonfeld_">
                   <a target={"_blank"}>
-                    <span>Mi sitio web</span>
+                    <span>Instagram</span>
                   </a>
                 </Link>
                 <br />
