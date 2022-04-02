@@ -1,0 +1,41 @@
+.footer {
+  height: 100px;
+  padding: 10px 0 10px 0;
+  border-top: 1px solid #cccccc50;
+  background-color: var(--dark);
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parrafo {
+  color: var(--lineTwo);
+  font-size: 10px;
+  text-align: center;
+}
+
+.a {
+  color: var(--blanco);
+  font-size: 10px !important;
+}
+
+@media screen and (min-width: 960px) {
+  .parrafo {
+    color: var(--lineTwo);
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .a {
+    color: var(--blanco);
+    font-size: 20px !important;
+  }
+}

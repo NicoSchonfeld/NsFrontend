@@ -1,0 +1,545 @@
+.containerLuces {
+  position: relative;
+  width: 100%;
+  height: auto;
+
+  overflow: hidden;
+}
+
+.LuzNaranja {
+  position: absolute;
+  top: 700px;
+  right: -200px;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--orangeOpacityOne);
+  box-shadow: 1px 1px 400px 400px var(--orangeOpacityOne);
+  border-radius: 100%;
+}
+
+.LuzNaranjaDos {
+  position: absolute;
+  top: 2400px;
+  right: -200px;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--orangeOpacityOne);
+  box-shadow: 1px 1px 400px 400px var(--orangeOpacityOne);
+  border-radius: 100%;
+}
+
+.LuzNaranjaTres {
+  position: absolute;
+  top: 3600px;
+  right: -200px;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--orangeOpacityOne);
+  box-shadow: 1px 1px 400px 400px var(--orangeOpacityOne);
+  border-radius: 100%;
+}
+
+.LuzCeleste {
+  position: absolute;
+  top: -200;
+  left: -200px;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--blue);
+  box-shadow: 1px 1px 400px 400px var(--blue);
+  border-radius: 100%;
+}
+
+.LuzCelesteDos {
+  position: absolute;
+  top: 1700px;
+  left: -200px;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--blue);
+  box-shadow: 1px 1px 400px 400px var(--blue);
+  border-radius: 100%;
+}
+
+.LuzCelesteTres {
+  position: absolute;
+  top: 2800px;
+  left: -200px;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--blue);
+
+  box-shadow: 1px 1px 400px 400px var(--blue);
+  border-radius: 100%;
+}
+
+.LuzCelesteCuatro {
+  position: absolute;
+  top: 4700px;
+  left: -200px;
+  width: 100px;
+  height: 100px;
+
+  background-color: var(--blue);
+
+  box-shadow: 1px 1px 400px 400px var(--blue);
+  border-radius: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  min-height: 100vh;
+  background-color: var(--dark);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.wrapperAbout {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.h1 {
+  padding-top: 250px;
+  text-align: center;
+  color: var(--blanco);
+  text-align: center;
+  font-weight: 800;
+  line-height: 40px;
+
+  font-size: 37px;
+}
+
+.h1_Especial {
+  text-align: center;
+  color: var(--blanco);
+  text-align: center;
+  font-weight: 800;
+  line-height: 40px;
+
+  font-size: 37px;
+}
+
+.containerBtn {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.btnImportant {
+  padding: 10px 40px 10px 40px;
+  color: #f2f2f2;
+  background-color: transparent;
+  border: 1px solid var(--orange);
+  font-size: 18px;
+
+  border-radius: 50px;
+  margin-right: 0;
+
+  cursor: pointer;
+
+  transition: all 300ms ease;
+}
+
+.btnImportant:hover {
+  background-color: var(--orange);
+  border: 1px solid var(--orange);
+}
+
+.btnInitial {
+  padding: 10px 40px 10px 40px;
+  color: var(--blanco);
+  background-color: var(--orange);
+  border: none;
+  font-size: 18px;
+
+  border-radius: 50px;
+  border: 1px solid var(--orange);
+  margin-left: 0;
+  margin-top: 20px;
+
+  cursor: pointer;
+}
+
+/* Section Two ---------------------------- */
+
+.sectionTwo {
+  width: 100%;
+  height: 130vh;
+  min-height: 100vh;
+  background-color: var(--dark);
+}
+
+.sectionTrhee {
+  width: 100%;
+  height: 150vh;
+  min-height: 100vh;
+  background-color: var(--dark);
+  overflow: hidden;
+  /* outline: 1px solid yellow; */
+}
+
+.sectionFor {
+  width: 100%;
+  height: 150vh;
+  min-height: 100vh;
+  background-color: var(--dark);
+}
+
+.h2 {
+  padding-top: 100px;
+  color: var(--blanco);
+  text-align: left;
+  font-weight: 400;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 2px;
+
+  font-size: 33px;
+}
+
+.parrafo {
+  font-size: 16px;
+  color: var(--lineTwo);
+  max-width: 450px;
+  padding: 10px 0;
+}
+
+.containerGlobalIcons {
+  margin-top: 60px;
+  width: 100%;
+  height: auto;
+
+  padding: 0 20px;
+  /* outline: 1px solid #fff; */
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
+.ContainerIconLeft {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* outline: 1px solid red; */
+}
+
+.ContainerIconRight {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* outline: 1px solid blue; */
+}
+
+.icons {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+
+  /* outline: 1px solid yellow; */
+}
+
+.containerIconTop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* outline: 1px solid green; */
+  width: 100%;
+  height: auto;
+}
+
+.containerIconBottom {
+  text-align: center;
+  /* outline: 1px solid green; */
+  width: 100%;
+  height: auto;
+}
+
+.titleIcon {
+  color: var(--blanco);
+  font-size: 20px;
+}
+
+.descriptionIcon {
+  color: var(--lineTwo);
+  font-size: 16px;
+}
+
+/* section3 */
+
+.containerAboutme {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.imageMe {
+  margin-top: 70px;
+
+  width: 218px;
+  height: 328px;
+}
+
+.pageLoading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: var(--dark);
+  width: 100%;
+  height: 100vh;
+}
+
+.pageDark {
+  background-color: var(--dark);
+  width: 100%;
+  height: 100vh;
+}
+
+.pageOrange {
+  background-color: var(--orange);
+  width: 100%;
+  height: 100vh;
+}
+
+.containerPageLoader {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Section cursos */
+
+.containerEnlacesCursos {
+  width: 100%;
+  height: 100%;
+}
+
+.cursos {
+  width: 100%;
+  height: 150px;
+  /* border: 1px solid var(--lineTwo); */
+  background-color: var(--negroLite);
+
+  margin-top: 20px;
+  padding-left: 40px;
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+
+  transition: all 300ms ease-in-out;
+}
+
+.cursos:hover {
+  box-shadow: 1px 15px 30px #00000080;
+}
+
+.containerIconoCursoLeft {
+  /* outline: 1px solid green; */
+  width: 200px;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerTextCursoRight {
+  /* outline: 1px solid yellow; */
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+
+.titleCursos {
+  color: var(--blanco);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.parrafoCursos {
+  color: var(--lineTwo);
+  font-size: 12px;
+}
+
+.containerLogoGlobal {
+  width: 216px;
+  height: 60px;
+  /* outline: 1px solid #f2f2f2; */
+}
+
+.containerLogoTop {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* outline: 1px solid red; */
+}
+
+.containerLogoBottom {
+  width: 100%;
+  height: auto;
+
+  /* outline: 1px solid yellow; */
+}
+
+.containerNs {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  padding-right: 5px;
+  /* outline: 1px solid #f2f2f2; */
+}
+
+.containerDevWeb {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  /* outline: 1px solid #f2f2f2; */
+}
+
+.containerFrontend {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  /* outline: 1px solid #f2f2f2; */
+}
+
+/* Media */
+
+@media (min-width: 960px) {
+  .wrapperAbout {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .h1 {
+    padding-top: 120px;
+    text-align: left;
+    line-height: 80px;
+    font-weight: 900;
+
+    font-size: 80px;
+  }
+
+  .h1_Especial {
+    text-align: left;
+    line-height: 80px;
+    font-weight: 900;
+
+    font-size: 80px;
+  }
+
+  .h2 {
+    padding-top: 80px;
+    letter-spacing: 2px;
+
+    font-weight: 900;
+    line-height: 80px;
+    font-size: 60px;
+  }
+
+  .parrafo {
+    font-size: 20px;
+  }
+
+  .containerBtn {
+    justify-content: left;
+    flex-direction: initial;
+  }
+
+  .btnInitial {
+    margin-left: 20px;
+    margin-top: 0;
+  }
+
+  .containerGlobalIcons {
+    margin-top: 80px;
+    flex-direction: initial;
+  }
+
+  .sectionTwo {
+    height: 120vh;
+  }
+
+  .sectionTrhee {
+    height: 150vh;
+  }
+
+  .sectionFor {
+    height: 150vh;
+  }
+
+  .containerAboutme {
+    flex-direction: initial;
+  }
+
+  .imageMe {
+    margin-top: 50px;
+
+    width: 441px;
+    height: 662px;
+  }
+
+  .titleCursos {
+    color: var(--blanco);
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .parrafoCursos {
+    color: var(--lineTwo);
+    font-size: 16px;
+  }
+}

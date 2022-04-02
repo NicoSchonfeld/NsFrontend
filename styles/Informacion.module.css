@@ -1,0 +1,41 @@
+.sectionOne {
+  width: 100%;
+  height: auto;
+  min-height: 100vh;
+  background-color: var(--blanco);
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 0 20px;
+}
+
+.title {
+  padding-top: 100px;
+  color: var(--dark);
+  text-align: left;
+  font-weight: 600;
+
+  font-size: 33px;
+}
+
+.subTitle {
+  padding-top: 50px;
+  color: var(--orange);
+  text-align: left;
+  font-weight: 500;
+
+  font-size: 33px;
+}
+
+.parrafo {
+  padding-top: 10px;
+  color: var(--dark);
+  font-weight: 400;
+
+  font-size: 20px;
+}
