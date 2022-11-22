@@ -32,7 +32,7 @@ export default function AboutMe() {
                 <br />
                 Este curso está destinado para todas esas personas que no han
                 tenido la oportunidad de estudiar o para los que recíen empiezan
-                tengan de donde informarce.
+                tengan de donde informarse.
               </p>
             </div>
             <div className={styles.imageMe}>
